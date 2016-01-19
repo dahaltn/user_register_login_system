@@ -79,7 +79,7 @@
 			<?php echo isset($message)?$message:null; ?>
 		
 		</p>	
-		<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+		<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" style="background:#999;">
 		
 				<p class="user-profile"><span>Username: </span>
 					<input type="text" name="username" value="<?php echo htmlentities($user['username']); ?>">
