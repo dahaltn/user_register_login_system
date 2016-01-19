@@ -25,9 +25,8 @@ class editUser extends databaseObject{
 		$stmp->execute($fields);
 		if($stmp->rowCount()>0){
 			return true;
-		}else{
-			return false;
 		}
+		return false;
 	}
 
 

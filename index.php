@@ -123,7 +123,7 @@ if(isset($_POST['login'])){
 
 	$arr  = implode(":", $fields2);
 
-	var_dump($arr);
+//	var_dump($arr);
 
 
 	// foreach ($fields as $key => $value) {
